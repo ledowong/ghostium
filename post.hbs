@@ -1,11 +1,11 @@
 {{!< default}}
 
 {{#post}}
-{{> cover this}}
+  {{> cover this}}
 
-<section class="wrapper"> <!-- remove class 'wrapper-post', because added cover -->
-  <div class="wrapper-container">
-    <article itemscope itemtype="http://schema.org/BlogPosting" role="article" class="post {{post_class}}">
+  <section class="wrapper"> <!-- remove class 'wrapper-post', because added cover -->
+    <div class="wrapper-container">
+      <article itemscope itemtype="http://schema.org/BlogPosting" role="article" class="post {{post_class}}">
         <section class="post-container">
           <header class="post-header">
             <ul class="post-meta-list">
@@ -107,15 +107,15 @@
             </div>
           </footer>
         </section>
-      {{/post}}
-      <section itemprop="comment" class="post-comments">
-        <div id="disqus_thread"></div>
-      </section>
-    </article>
-
-    {{> footer this}}
-  </div>
-</section>
+        <section itemprop="comment" class="post-comments">
+          <div id="disqus_thread"></div>
+        </section>
+      </article>
+      {{> prev_next_post this}}
+      {{> footer this}}
+    </div>
+  </section>
+{{/post}}
 
 <script type="text/javascript">
   if(GHOSTIUM.haveDisqus) {

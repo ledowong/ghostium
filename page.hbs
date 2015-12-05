@@ -1,11 +1,11 @@
 {{!< default}}
 
 {{#post}}
-{{> cover this}}
+  {{> cover this}}
 
-<section class="wrapper"> <!-- remove class 'wrapper-post', because added cover -->
-  <div class="wrapper-container">
-    <article itemscope itemtype="http://schema.org/BlogPosting" role="article" class="post {{post_class}}">
+  <section class="wrapper"> <!-- remove class 'wrapper-post', because added cover -->
+    <div class="wrapper-container">
+      <article itemscope itemtype="http://schema.org/BlogPosting" role="article" class="post {{post_class}}">
         <section class="post-container">
           <header class="post-header">
             <h1 itemprop="name headline" class="post-title"><a href="{{url}}" itemprop="url" data-pjax title="{{{title}}}">{{{title}}}</a></h1>
@@ -82,9 +82,9 @@
             </div>
           </footer>
         </section>
-      {{/post}}
-    </article>
+      </article>
 
-    {{> footer this}}
-  </div>
-</section>
+      {{> footer this}}
+    </div>
+  </section>
+{{/post}}
