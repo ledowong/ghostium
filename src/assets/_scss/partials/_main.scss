@@ -77,7 +77,7 @@ body {
   position: relative;
   //padding: 40px 10% 40px 185px;
   padding: 40px 10%; // Leonardo: no left side avatar, so remove some padding.
-  max-width: 910px;
+  // max-width: 910px; Leonardo: let it go... why limit this...
 
   @include breakpoint(medium) {
     padding: 40px 10%;
