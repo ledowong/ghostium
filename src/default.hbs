@@ -21,7 +21,7 @@
 
     <meta property="og:url" content="{{@blog.url}}">
     <meta property="og:type" content="article">
-    <meta property="og:title" content="{{meta_title}}">  
+    <meta property="og:title" content="{{meta_title}}">
     <meta property="og:description" content="{{meta_description}}">
     <meta property="og:site_name" content="{{@blog.title}}">
 
@@ -33,8 +33,8 @@
     <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon">
     <link href="/apple-touch-icon-precomposed.png" rel="apple-touch-icon">
 
-    <link href="//fonts.googleapis.com/" rel="dns-prefetch">
-    <link href="//fonts.googleapis.com/css?family=Noto+Serif:400,700,400italic|Open+Sans:700,400&subset=latin,latin-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/" rel="dns-prefetch">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif:400,700,400italic|Open+Sans:700,400&subset=latin,latin-ext" rel="stylesheet">
 
     <!-- build:css({src,.tmp}) /assets/css/main.min.css -->
     <link href="/assets/_components/font-awesome/css/font-awesome.css">
@@ -44,6 +44,7 @@
     <link href="/assets/css/style.css">
     <!-- endbuild -->
 
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
     <script type="text/javascript">
       {{> custom/config}}
 
@@ -128,7 +129,7 @@
         (function(g,h,o,s,t,z){g.GoogleAnalyticsObject=s;g[s]||(g[s]=
         function(){(g[s].q=g[s].q||[]).push(arguments)});g[s].s=+new Date;
         t=h.createElement(o);z=h.getElementsByTagName(o)[0];
-        t.src='//www.google-analytics.com/analytics.js';
+        t.src='https://www.google-analytics.com/analytics.js';
         z.parentNode.insertBefore(t,z)}(window,document,'script','ga'));
         ga('create',ga_ua);ga('send','pageview');
       }
@@ -137,7 +138,7 @@
         (function () {
         var s = document.createElement('script'); s.async = true;
         s.type = 'text/javascript';
-        s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+        s.src = 'https://' + disqus_shortname + '.disqus.com/count.js';
         (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
         }());
       }
