@@ -75,7 +75,8 @@ body {
 
 .wrapper-container {
   position: relative;
-  padding: 40px 10% 40px 185px;
+  //padding: 40px 10% 40px 185px;
+  padding: 40px 10%; // Leonardo: no left side avatar, so remove some padding.
   max-width: 910px;
 
   @include breakpoint(medium) {
