@@ -127,6 +127,7 @@
   padding: 0 5px;
   text-align: right;
   z-index: 300;
+  display: none; // Leonardo: I am the only editor, no need this.
 
   @include breakpoint(large) {
     display: none;
