@@ -34,7 +34,7 @@
   overflow: hidden;
 }
 .read-next-story:hover:before {
-  background: rgba(0,0,0,0.8);
+  background: rgba(0,0,0,0.7); /* 0.8 to 0.7 */
   transition: all 0.2s ease;
 }
 .read-next-story:hover .post:before {
@@ -51,7 +51,7 @@
   right: 0;
   bottom: 0;
   left: 0;
-  background: rgba(0,0,0,0.7);
+  background: rgba(0,0,0,0.4); /* 0.7 to 0.4 */
   transition: all 0.5s ease;
 }
 
