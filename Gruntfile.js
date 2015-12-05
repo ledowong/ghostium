@@ -301,7 +301,7 @@ module.exports = function(grunt) {
             expand: true,
             flatten: true,
             cwd: '<%= dir.bower %>',
-            src: ['**/font*/*.{svg,eot*,ttf,woff,otf}'],
+            src: ['**/font*/*.{svg,eot*,ttf,woff,woff2,otf}'],
             dest: '<%= dir.build %><%= dir.fonts %>/',
             filter: 'isFile'
           },
