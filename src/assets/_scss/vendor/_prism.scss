@@ -17,3 +17,11 @@ pre[class*="language-"] code[class*="language-"] {
 pre[class*="language-"] {
   margin-bottom: 30px;
 }
+
+/* Leonardo: Override Prism, so that single line code style is  matching Ghost admin page */
+:not(pre) > code[class*="language-"] {
+	padding: .2rem .3rem .1rem;
+	border: 1px solid #d8e0e4;
+	border-radius: 2px;
+	color: #c25;
+}
