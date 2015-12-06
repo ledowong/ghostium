@@ -32,6 +32,7 @@
   background: #222 no-repeat center center;
   background-size: cover;
   overflow: hidden;
+  flex-direction: column; /* Leonardo: text algin center */
 }
 .read-next-story:hover:before {
   background: rgba(0,0,0,0.7); /* 0.8 to 0.7 */
@@ -59,7 +60,6 @@
   padding-top: 2rem; /* Leonardo: from 6 to 2 */
   padding-bottom: 2rem; /* Leonardo: from 6 to 2 */
   position: relative; /* Leonardo: so the text won't cover by dark layer */
-  margin: 0 auto; /* Leonardo: center text in the block */
 }
 
 .read-next-story .post:before {
